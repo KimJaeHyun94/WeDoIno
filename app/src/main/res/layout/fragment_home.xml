@@ -138,57 +138,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="TextView" />
+                    android:text="0" />
 
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="TextView" />
+                    android:text="0" />
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <TextView
-                    android:id="@+id/externalAngle"
-                    android:layout_width="74dp"
-                    android:layout_height="26dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="336dp"
-                    android:text="textView"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.642"
-                    app:layout_constraintStart_toStartOf="@+id/btnSendData"
-                    app:layout_constraintTop_toBottomOf="@+id/btnSendData" />
 
-                <TextView
-                    android:id="@+id/externalPressure"
-                    android:layout_width="74dp"
-                    android:layout_height="26dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="336dp"
-                    android:text="textView"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/btnSendData"
-                    app:layout_constraintTop_toBottomOf="@+id/btnSendData" />
 
-                <TextView
-                    android:id="@+id/internalAngle"
-                    android:layout_width="74dp"
-                    android:layout_height="26dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="148dp"
-                    android:text="textView"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.642"
-                    app:layout_constraintStart_toStartOf="@+id/btnSendData"
-                    app:layout_constraintTop_toBottomOf="@+id/btnSendData" />
+
 
                 <Button
                     android:id="@+id/btnBluetoothOn"
@@ -229,39 +194,9 @@
                     app:layout_constraintStart_toStartOf="@+id/tvBluetoothStatus"
                     app:layout_constraintTop_toBottomOf="@+id/tvBluetoothStatus" />
 
-                <TextView
-                    android:id="@+id/internalPressure"
-                    android:layout_width="74dp"
-                    android:layout_height="26dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="148dp"
-                    android:text="textView"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/btnSendData"
-                    app:layout_constraintTop_toBottomOf="@+id/btnSendData" />
 
-                <Button
-                    android:id="@+id/btnSendData"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="전송"
-                    app:layout_constraintStart_toStartOf="@+id/btnConnect"
-                    app:layout_constraintTop_toBottomOf="@+id/btnConnect" />
 
-                <EditText
-                    android:id="@+id/tvSendData"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Send Data"
-                    app:layout_constraintStart_toEndOf="@+id/btnSendData"
-                    app:layout_constraintTop_toTopOf="@+id/btnSendData" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
